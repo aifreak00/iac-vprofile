@@ -1,4 +1,4 @@
-name: "Vprofile Infra"
+name: "Vprofile Infrastructure"
 
 on:
 
@@ -64,13 +64,13 @@ jobs:
 
       - name: Checkout source code
 
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.1.1
 
 
 
       - name: Setup terraform with specified version on the runner
 
-        uses: hashicorp/setup-terraform@v2
+        uses: hashicorp/setup-terraform@v3.0.0
 
         #with:
 
